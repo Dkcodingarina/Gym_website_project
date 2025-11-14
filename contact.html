@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            
+       }
+       html{
+           scroll-behavior: smooth;
+           overflow-x: hidden;
+
+       }
+        nav{
+            width: 100%;
+            height: 50px;
+            border: 1px solid rgb(255, 98, 0);
+            line-height: 5px;
+            padding: 0px 0px;
+            background-color: rgb(255, 98, 0);
+            z-index: 2;
+            position: fixed;
+       }
+       nav .logo p{
+            font-size: 25px;
+            font-weight: bold;
+            float: left;
+            color: azure;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+             margin-left: 100px;
+
+      }
+      nav .logo p:hover{
+            color:aqua;
+      }
+      nav ul{
+            float: right;
+            padding-top: 8px;  
+      }
+     nav li{
+            display: inline-block;
+            list-style-type: none;    
+     }
+     nav li a{
+            font-size: 20px;
+            padding: px 0px;
+            color: aliceblue;
+            margin-right:25px;
+            text-decoration: none;
+            padding-right: 50px;       
+     }
+
+       nav li a:hover{
+            color:aqua;
+
+     }
+     .box{
+        width: 100%;
+        height: 600px;
+        background-color: #24272E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        gap: 20px;
+    }
+    .a1,.a2{
+        width: 400px;
+        height: 500px;
+        border: 1px solid red;
+        border-radius: 40px;
+    }
+    .a2{
+        width: 700px;
+    }
+    .foot{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        background-color: #000000;
+        justify-content: center;
+    
+       }
+       .zaid{
+        width: 350px;
+        height: 320px;
+        margin-left: 50px;
+        float: left;
+        position: relative;
+        top: 50px;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><p>DK FITNESS HUB</p></div>
+        <ul>
+            <li><a href="./gym.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./membership.html">Membership</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+       </nav>
+       <div class="box">
+        <div class="a1" style="background-color: orangered;">
+            <div style="width: 100%; font-size:40px; border-top-left-radius: 40px; border-top-right-radius: 40px; text-align:center;">Contact us</div>
+            <hr>
+            <form>
+                <div class="name" style="width:100%; margin-top:25px;">
+                <label style="font-size: 20px; margin-left:50px;">Name</label><br>
+                <input type="text" placeholder="Enter name here" style="font-size: 20px; border:none; border-bottom:2px solid black; border-radius:5px; outline:none; margin-left:50px; margin-top:5px;">
+                </div>
+                <div class="name" style="width:100%; margin-top:8px;">
+                    <label style="font-size: 20px; margin-left:50px;">Phone Number</label><br>
+                    <input type="tel" placeholder="Enter phone number here" style="font-size: 20px; border:none; border-bottom:2px solid black; border-radius:5px; outline:none; margin-left:50px; margin-top:5px;">
+                </div>
+                <div class="name" style="width:100%; margin-top:8px;">
+                    <label style="font-size: 20px; margin-left:50px;">E-mail Id</label><br>
+                    <input type="email" placeholder="Enter phone number here" style="font-size: 20px; border:none; border-bottom:2px solid black; border-radius:5px; outline:none; margin-left:50px; margin-top:5px; padding:2px 2px;">
+                </div>
+                <div class="name" style="width:100%; margin-top:8px;">
+                    <label style="font-size: 20px; margin-left:50px;">Massage</label><br>
+                    <textarea placeholder="Enter Address here" style="font-size: 20px; width:300px; height:100px; border:none; border-bottom:2px solid black; border-radius:5px; outline:none; margin-left:50px; margin-top:5px;"></textarea>
+                </div>
+                <div class="name" style="width:100%; margin-top:8px;">
+                    <input type="submit" style="font-size: 20px; width:120px; border:none; border-bottom:2px solid black; border-radius:5px; outline:none; margin-left:140px; margin-top:5px; padding:2px">
+                </div>
+                <hr>
+            
+
+            </form>
+        </div>
+        <div class="a2">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="700" height="500" id="gmap_canvas" style="border-radius: 40px;;" src="https://maps.google.com/maps?q=tagore+park+roundabout+%2Ctagore+park%2Cmukherjee+nagar%2Cdelhi%2C110009&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://online.stopwatch-timer.net/"></a><br><style>.mapouter{position: relative;height: 560px;width: 820px;}</style><style>.gmap_canvas{overflow: hidden;background: none !important;height: 560px;width: 820px;}</style></div></div>        </div>
+       </div>
+       <div class="foot">
+        <div class="zaid" style="width: 500px;"><h1 id="logofoot" style="color: orangered; font-size: 50px;">DK</h1><h1 id="logofoot2" style="color: antiquewhite; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod earum nobis numquam iure! Vero beatae rem iure ratione quod assumenda temporibus eaque debitis voluptates repudiandae? Laborum officia quisquam aspernatur minima?</h1><div class="logoint"><a href="#"><img src="gymimage/facebooklogo.png" style="width: 50px; position: relative; top: 10px;"></a><a href="#"><img src="gymimage/instagramlogo.png" style="width: 50px; position: relative; border-radius: 10px; left: 20px; top: 10px;"></a><a href="#"><img src="gymimage/inlogo.png" style="width: 50px; position: relative; border-radius: 10px; left: 40px; top:10px;"></a><a href="#"><img src="gymimage/twitterlogo.png" style="width:65px; position: relative; border-radius: 10px; left: 60px; top: 10px;"></a></div></div>
+        <div class="zaid"><h1 id="QUICKE" style="color: antiquewhite; font-size: 20px; position: relative; top: 30px;">Quick Coantacts.</h1><h1 id="location" style="color: antiquewhite; font-size: 20px; position: relative; top: 35px;">H-180/ Model town near tagore park<br> Delhi-110009</h1><a href="#" style="color: antiquewhite; font-size: 25px; text-decoration: none; position: relative; top: 40px;">pawardeepanshu@gmail.com</a><br><a href="#" style="text-decoration: none; color: antiquewhite; line-height: 50px; font-size: 20px; position: relative; top: 50px;">8851409693(Owner of Gym)</a> <a href="#" style="color: antiquewhite; font-size: 25px;  position: relative; top: 50px; text-decoration: none;">www.dkfashionhub</www></a></div>
+        <div class="zaid"><h1 id="gallery" style="color: antiquewhite; font-size: 20px; position: relative; top: 25px;">Gallery</h1><img src="gymimage/gympo1.jpg" style="width: 100px; height: 100px; position: relative; top: 20px;"><h2 id="text1" style="color: antiquewhite; position: relative; top: -70px; left: 110px; font-size: 25px;">Gym images is here</h2><br><img src="gymimage/gympo2.jpg" style="width: 100px; height: 100px; position: relative; top: -50px;"><h2 id="tesb"style="color: antiquewhite; position: relative; top: -140px; left: 110px; font-size: 25px;">Click and check out</h2></div>
+       </div>
+</body>
+</html>

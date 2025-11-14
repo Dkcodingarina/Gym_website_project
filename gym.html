@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <style>
+             body{
+                 margin: 0px;
+                 padding: 0px;
+                 box-sizing: border-box;
+                 
+            }
+            html{
+                scroll-behavior: smooth;
+                overflow-x: hidden;
+
+            }
+             nav{
+                 width: 100%;
+                 height: 50px;
+                 border: 1px solid rgb(255, 98, 0);
+                 line-height: 5px;
+                 padding: 0px 0px;
+                 background-color: rgb(255, 98, 0);
+                 position: fixed;
+                 z-index: 2;
+            }
+            nav .logo p{
+                 font-size: 25px;
+                 font-weight: bold;
+                 float: left;
+                 color: azure;
+                 letter-spacing: 1.5px;
+                 cursor: pointer;
+                  margin-left: 100px;
+
+           }
+           nav .logo p:hover{
+                 color:aqua;
+           }
+           nav ul{
+                 float: right;
+                 padding-top: 8px;  
+           }
+          nav li{
+                 display: inline-block;
+                 list-style-type: none;    
+          }
+          nav li a{
+                 font-size: 20px;
+                 padding: px 0px;
+                 color: aliceblue;
+                 margin-right:25px;
+                 text-decoration: none;
+                 padding-right: 50px;       
+          }
+
+            nav li a:hover{
+                 color:aqua;
+       
+          }
+        .headim{
+                 width: 100%;
+                 height: 650px;
+                 background-color: rgb(0, 0, 0);
+                margin: 0px;
+
+          }
+         .cur{
+                  width: 500px; 
+                  height: 500px;
+                 border: 1px solid; 
+                 position: absolute;
+                 border-radius: 50%;
+                 top: 100px;
+                 left: 450px;
+                 background:linear-gradient(rgb(195, 43, 0),rgb(255, 124, 2));
+                 animation:curc 2.5s ;
+           }
+           @keyframes curc {
+            0%{scale:2.5;}
+            100%{scale:1;}
+           }
+        .fitness{
+                 font-size: 200px;
+                 color: rgb(255, 255, 255);
+                 position:absolute;
+                  top: 0px;
+                 left: 300px;
+                 text-shadow: 20px 20px 500px;
+                 font-family: Calibri (Body);
+          }
+       .threeim{
+                 width: 100%;
+                 height:800px;
+                 background-color:black;
+                  display: flex;
+                 justify-content: space-evenly;
+                  padding-top: 70px;
+          }
+       .tm{
+                 width: 350px;
+                  height: 500px;
+                 border: 4px solid orangered;
+           }
+           .onn{
+            width: 280px;
+            height: 40px;
+            border: 1px solid orangered;
+            background-color: orangered;
+            position: relative;
+            top:-315px;
+            left: 125px;
+            color: aliceblue;
+            font-size: 25px;
+            box-sizing: border-box;
+            padding-left: 100px;
+            padding-top: 5px;
+           }
+           .onm{
+            width: 280px;
+            height: 40px;
+            border: 1px solid orangered;
+            background-color: orangered;
+            position: relative;
+            top:-360px;
+            left: 570px;
+            color: aliceblue;
+            font-size: 25px;
+            box-sizing: border-box;
+            padding-left: 100px;
+            padding-top: 5px;
+
+           }
+           .onb{
+            width: 280px;
+            height: 40px;
+            border: 1px solid orangered;
+            background-color: orangered;
+            position: relative;
+            top:-400px;
+            left: 1012px;
+            color: aliceblue;
+            font-size: 25px;
+            box-sizing: border-box;
+            padding-left: 100px;
+            padding-top: 5px;
+           }
+
+
+           .welcome{
+            width: 100%;
+            height: 600px;
+            background-color: #24272E;
+            position: relative;
+            top: -350px;
+           }
+           .test{
+            width: 100%;
+            height: 560px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            top: -470px;
+           }
+           .slide{
+            width: 100%;
+            height: 500px;
+            background-color:#000000;
+            position: relative;
+            top:-470px;
+           }
+           .pricing{
+            width: 100%;
+            height: 900px;
+            background-color: #24272E;
+            position: relative;
+            top: -510px;
+           }
+           .bmi{
+            width: 100%;
+            height: 650px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            top: -600px;
+           }
+           .latest{
+            width: 100%;
+            height: 800px;
+            background-color: #1D1E20;
+            position: absolute;
+            top: 4480px;
+           }
+           .foot{
+            width: 100%;
+            height: 400px;
+            background-color: #1D1E20;
+            margin-top: -400px;
+        
+           }
+           .zaid{
+            width: 350px;
+            height: 320px;
+            margin-left: 50px;
+            float: left;
+            position: relative;
+            top: 50px;
+            
+           }
+       
+  
+</style>
+</head>
+<body>
+   <nav>
+    <div class="logo"><p>DK FITNESS HUB</p></div>
+    <ul>
+        <li><a href="./gym.html">Home</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./membership.html">Membership</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+   </nav>
+   <div class="headim" id="Home"></div>
+     <div class="cur"></div>
+    <div> <h2 class="fitness">FITNESS</h2></div>
+     <div class="sgym"><img src="gymimage/pngwing.com.png" style="width:500px; height: 600px; position: absolute; top: 90px;left: 450px;"></div>
+     <div class="threeim">
+        <div class="tm"><img src="gymimage/gympo1.jpg" style="width: 350px; height: 500px;filter: brightness(80%);"></div>
+        <div class="tm"><img src="gymimage/gympo2.jpg" style="width: 350px; height: 500px;"></div>
+        <div class="tm"><img src="gymimage/gympo4.jpg" style="width: 350px; height: 500px; filter: brightness(80%);"></div>
+     </div>
+     <div class="onn">Asthatic</div><div class="onm">Cardiyo</div><div class="onb">Gym</div>
+     <h1 class="energys" style="position: relative; color: rgb(255, 255, 255); top: -380px; left: 500PX;">ENERGY STRICTLY TRANS</h1>
+     <h2 class="en" style="position: relative; color: rgb(255, 255, 255); top: -380px; left: 0PX;font-size:20px; text-align: center;">Lorem ipsum dolor sit amet, consecte  electus at impeditdeleniti quas minimaimos doloribus<br> delectus at impedit. Beatae, expedita. Provident possimus ut quis quos necessitatibus!</h2>
+     <div class="subscribe">
+        <form>
+        <input type="submit" value="Subscribe Now" style="position:relative; top: -360px; left: 620px; width: 150px; height: 40px; padding: 10px 10px; border: 1px solid orangered; color: orangered; background-color: black;cursor: pointer;">
+    </form>
+     </div>
+     <div class="welcome" id="About"><h1 class="ols" style="position: relative; left: 200px; top:50px; color: aliceblue; font-size: 35px;">About us</h1>
+            <p class="welcom" style="width: 500px; height: 500px; font-size: 25px; padding-top: 50px; padding-left: 75px; text-align: justify; color: aliceblue;">Lorem, ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam, beatae, nam architecto nesciunt dolor dicta nobis ad  ;or
+                doloremque temporibus sit, maxime ipsa debitis eius fuga perspiciatis eum necessitatibus obcaecati? consectetur adipisicing elit. Non repudiandae laborum nulla, totam enim consequatur quibusdam atque incidunt labore! Non unde commodi ea laudantium eius aspernatur, quas obcaecati totam veritatis?</p>
+               <img src="gymimage/pngwing.com(1).png" class="we" style="position: relative; top: -630px;left: 760px; width: 350px; height: 490px; z-index: 1;">
+               <img src="gymimage/pngwing.com(2).png" class="we" style="position: relative; top: -620px;left: 640px; width: 300px; height: 480px;">
+            </div>
+            <div class="test"><h1 class="testo" style="color: orangered; margin-left: 610px; padding-top: 35px; position: relative; top: 20px; word-spacing: 2px;">Our Testimonial</h1><h1 class="testo2" style="color: aliceblue; margin-left: 50px; padding-top: 0px; text-align: center; font-size: 50px; line-height: 45px; word-spacing: 2px;">Our member tell thier<br> Success storiess</h1>
+                <div class="box1" style="width: 550px; height: 250px; background:linear-gradient(90deg,rgb(29, 32, 33),aqua); position: relative; left: 100px; border-radius: 30px;">
+                <h1 id="om1" style="color: aliceblue; font-size: 20px; position: relative; left: 20px; top: 40px;">Dartne jehade</h1>
+                <h2 id="om2" style="color: rgb(255, 213, 0); font-size: 18px; position: relative; left: 20px; top: 35px;"> Delhi</h2>
+                <h3 id="om3" style="color: aliceblue; font-size: 15px; position: relative; left: 20px; top: 30px; width: 350px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aliquid architecto nam ipsum ullam ea deleniti pariatur impedit mollitia, voluptates obcaecati placeat commodi provident eius ducimus consectetur repudiandae incidunt dignissimos.</h3><img src="gymimage/pngwing.com (1).png" style="width: 250px; height: 230px; position: relative; top: -155px; left: 320px;"></div>
+                <div  class="box2" style="width: 550px; height: 250px; background:linear-gradient(90deg,rgb(29, 32, 33),aqua); position: relative;top: -260px; left: 800px; border-radius: 30px;">
+                <h1 id="om1" style="color: aliceblue; font-size: 20px; position: relative; left: 20px; top: 40px;">Dartne jehade</h1>
+                <h2 id="om2" style="color: rgb(255, 213, 0); font-size: 18px; position: relative; left: 20px; top: 35px;"> Delhi</h2>
+                <h3 id="om3" style="color: aliceblue; font-size: 15px; position: relative; left: 20px; top: 30px; width: 350px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aliquid architecto nam ipsum ullam ea deleniti pariatur impedit mollitia, voluptates obcaecati placeat commodi provident eius ducimus consectetur repudiandae incidunt dignissimos.</h3><img src="gymimage/pngwing.com (1).png" style="width: 250px; height: 230px; position: relative; top: -155px; left: 320px;"></div></div>  
+            </div>
+            <div class="slide"><img src="gymimage/backgym.jpg" style="width: 100%; height: 480px;"></div>
+            <div class="pricing" id="Membership">
+            <h1 class="price" style="color: rgb(255, 213, 0); left: 620px; top:50px
+             ; font-family: Edwardian Script ITC; font-size: 50px; position: relative;">Pricing Tables</h1>
+            <h2 class="mem" style="color: rgb(237, 237, 237); left: 490px; font-family: Edwardian Script ITC; font-size: 80px; position: relative; word-spacing: 5px;">Membership Plans</h2>
+            <div class="ru18" style="width: 300px; height: 500px; border: 2px solid rgb(0, 0, 0); position: relative; top: -50px; left: 150px; border-radius: 30px;"><img src="gymimage/memgym3.jpg" width="300px" height="500px" style="filter: brightness(50%); border-radius: 30px;"><h1 class="one18" style="font-size: 30px; color: aliceblue; position: relative; top: -470px; left: 70px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">800/Month</h1><h2 class="one18n" style="color: aliceblue; width: 300px; height: 250px; position: relative; top: -450px; font-size: 20px; left: 5px; line-height: 50px; text-align: center;"><hr>One Day Training<hr>Onetime access to all club<hr>Group training<hr>Book a group class<hr>Fitness or interduction</h2></div>
+            <div class="ru50" style="width: 300px; height: 500px; border: 2px solid rgb(0, 0, 0); position: relative; top: -554px; left: 550px; border-radius: 30px;"><img src="gymimage/memgym.jpg" width="300px" height="500px" style="filter: brightness(50%); border-radius: 30px;"><h1 class="one18" style="font-size: 30px; color: aliceblue; position: relative; top: -470px; left: 70px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">5000/half year</h1><h2 class="one18n" style="color: aliceblue; width: 300px; height: 250px; position: relative; top: -450px; font-size: 20px; left: 5px; line-height: 50px; text-align: center;"><hr>One Day Training<hr>Onetime access to all club<hr>Group training<hr>Book a group class<hr>Fitness or interduction</h2></div>
+            <div class="ru75" style="width: 300px; height: 500px; border: 2px solid rgb(0, 0, 0); position: relative; top: -1058px; left: 950px; border-radius: 30px;"><img src="gymimage/memgym2.jpg" width="300px" height="500px" style="filter: brightness(50%); border-radius: 30px;"><h1 class="one18" style="font-size: 30px; color: aliceblue; position: relative; top: -470px; left: 70px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">10000/year</h1><h2 class="one18n" style="color: aliceblue; width: 300px; height: 250px; position: relative; top: -450px; font-size: 20px; left: 5px; line-height: 50px; text-align: center;"><hr>One Day Training<hr>Onetime access to all club<hr>Group training<hr>Book a group class<hr>Fitness or interduction</h2></div>
+           </div>
+           <div class="bmi"> <img src="gymimage/memgym2.jpg"> <h1 id="ad" style="color: rgb(255, 213, 0); position: relative; top: -600px; left: 780px; font-family: Edwardian Script ITC; font-size: 50px;">Advanced Calculator</h1>
+            <h2 id="ad2" style="color: rgb(255, 255, 255); position: relative; top: -640px; left: 650px;font-size: 50px;">CALCULATE YOUR BMI</h2>
+            <label style="position: relative; top: -650px; left: 700px; color: rgb(255, 255, 255);">YOUR HEIGHT</label>
+            <input type="number" placeholder="Feet" style="position: relative; top: -620px; left: 590px; width: 180px; height: 30px; padding-left: 10px; border-color: aliceblue; background-color: #000000; color: antiquewhite;">
+            <label style="position: relative; top: -550px; left: 390px; color: rgb(255, 255, 255);">YOUR WEIGHT</label>
+            <input type="number" placeholder="Pounds" style="position: relative; top: -520px; left: 275px; width: 180px; height: 30px; padding-left: 10px; border-color: aliceblue; background-color: #000000; color: antiquewhite;">
+            <input type="number" placeholder="Inches" style="position: relative; top: -620px; left: 300px; width: 180px; height: 30px; padding-left: 10px; border-color: aliceblue; background-color: #000000; color: antiquewhite;">
+            <label style="position: relative; top: -550px; left: 103px; color: rgb(255, 255, 255);">YOUR AGE</label>
+            <input type="number" placeholder="Age" style="position: relative; top: -520px; left: 20px; width: 180px; height: 30px; padding-left: 10px; border-color: aliceblue; background-color: #000000; color: antiquewhite;">
+            <label style="position: relative; top: -450px; color: aliceblue; left:-408px; ">GENDER</label>
+           <div id="gen" style="position: relative; top: -440px; left: 690px; color: aliceblue;"> <input type="radio" name="gender">Male <input type="radio" name="gender">Female</div>
+           <form><button class="calcu" style="position: relative; background:linear-gradient(rgb(195, 43, 0),rgb(255, 128, 2)); width: 220px; height: 50px; top: -400px; left: 700px; border-radius: 30px; color: aliceblue;">CALCULATE</button></form>
+           </div>
+           <div class="latest"><h1 class="Our" style="color: rgb(255, 213, 0); font-size: 50px; font-family: Edwardian Script ITC; position: relative; left: 600px;">Our News</h1><h2 class="latestne" style="color: aliceblue; position: absolute; left: 450px; font-size: 75px;top: 25px;">Our Latest News</h2>
+           <div class="news1" style="width: 300px; height: 515px; border: 2px solid orangered; margin-top: 100px; margin-left: 150px; float: left; border-radius: 30px;"><img src="gymimage/ne1.jpg" style="width: 300px; height: 250px; border-top-left-radius: 30px; border-top-right-radius: 30px;"><div id="box/12" style="width: 300px; height: 250px;  background-color:rgb(0, 0, 0); border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;"><h1 id="yellow1" style="color:rgb(255, 213, 0); font-size: 12px; padding-left: 10px; padding-top: 25px;">Maglina prado</h1><h2 id="comoell" style="color: antiquewhite; font-size: 20px; padding-left: 10px;" >Compellingly predominate<br> Enabled</h2><h3 id="ttx" style="color: antiquewhite; font-size: 15px; width: 280px; padding-left: 10px; padding-top: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui id est, ipsa perspiciatis vitae, laborum quaerat libero illum tempore ea inventore in, totam architecto quae doloribus neque omnis.</h3></div></div>
+           <div class="news2" style="width: 300px; height: 515px; border: 2px solid orangered; margin-top: 100px; margin-left: 110px; float: left;border-radius: 30px;"><img src="gymimage/ne2.jpg" style="width: 300px; height: 250px;  border-top-left-radius: 30px; border-top-right-radius: 30px;"><div id="box/12" style="width: 300px; height: 250px;  background-color: rgb(0, 0, 0); border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;"><h1 id="yellow1" style="color:rgb(255, 213, 0); font-size: 12px; padding-left: 10px; padding-top: 25px;">Maglina prado</h1><h2 id="comoell" style="color: antiquewhite; font-size: 20px; padding-left: 10px;" >Compellingly predominate<br> Enabled</h2><h3 id="ttx" style="color: antiquewhite; font-size: 15px; width: 280px; padding-left: 10px; padding-top: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui id est, ipsa perspiciatis vitae, laborum quaerat libero illum tempore ea inventore in, totam architecto quae doloribus neque omnis.</h3></div></div>
+           <div class="news3" style="width: 300px; height: 515px; border: 2px solid orangered; margin-top: 100px; margin-left: 100px; float: left; border-radius: 30px;"><img src="gymimage/ne3.jpg" style="width: 300px; height: 250px;  border-top-left-radius: 30px; border-top-right-radius: 30px;"><div id="box/12" style="width: 300px; height: 250px;  background-color: rgb(0, 0, 0); border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;"><h1 id="yellow1" style="color:rgb(255, 213, 0); font-size: 12px; padding-left: 10px; padding-top: 25px;">Maglina prado</h1><h2 id="comoell" style="color: antiquewhite; font-size: 20px; padding-left: 10px;" >Compellingly predominate<br> Enabled</h2><h3 id="ttx" style="color: antiquewhite; font-size: 15px; width: 280px; padding-left: 10px; padding-top: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui id est, ipsa perspiciatis vitae, laborum quaerat libero illum tempore ea inventore in, totam architecto quae doloribus neque omnis.</h3></div></div>
+           </div>
+           <div class="call" id="Contact"><img src="gymimage/backgym.jpg" style="width: 100%; height:500px;margin-top: 150px;"><h1 id="yellowc" style="color:rgb(255, 213, 0); font-family: Edwardian Script ITC; position: relative; top: -430px; left: 600px; font-size: 50px;">Call Us Today</h1><a href="#" style="position: relative; color: aliceblue; font-size: 70px; top: -450px; left: 400px; text-decoration: none;">+(088)-01983984549</a><h4 id="textlast" style="color: antiquewhite; position: relative; top: -450px; left:10px; font-size: 25px; text-align: center;">Lorem ipsum dolor sit amet eveniet voluptates  consectetur  eveniet voluptates adipisicing elit. Tempora<br> atque eaque eveniet voluptates qui asperiores nam explicabo.</h4><form><input type="submit" value="Get Started" style="color: white; background-color: orangered; position: relative; top: -430px; left: 600px;  width: 250px; height: 50px; border-radius: 10px; font-size: 20px;"></form></div>
+           <div class="foot">
+            <div class="zaid" style="width: 500px;"><h1 id="logofoot" style="color: orangered; font-size: 50px;">DK</h1><h1 id="logofoot2" style="color: antiquewhite; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod earum nobis numquam iure! Vero beatae rem iure ratione quod assumenda temporibus eaque debitis voluptates repudiandae? Laborum officia quisquam aspernatur minima?</h1><div class="logoint"><a href="#"><img src="gymimage/facebooklogo.png" style="width: 50px; position: relative; top: 10px;"></a><a href="#"><img src="gymimage/instagramlogo.png" style="width: 50px; position: relative; border-radius: 10px; left: 20px; top: 10px;"></a><a href="#"><img src="gymimage/inlogo.png" style="width: 50px; position: relative; border-radius: 10px; left: 40px; top:10px;"></a><a href="#"><img src="gymimage/twitterlogo.png" style="width:65px; position: relative; border-radius: 10px; left: 60px; top: 10px;"></a></div></div>
+            <div class="zaid"><h1 id="QUICKE" style="color: antiquewhite; font-size: 20px; position: relative; top: 30px;">Quick Coantacts.</h1><h1 id="location" style="color: antiquewhite; font-size: 20px; position: relative; top: 35px;">H-180/ Model town near tagore park<br> Delhi-110009</h1><a href="#" style="color: antiquewhite; font-size: 25px; text-decoration: none; position: relative; top: 40px;">pawardeepanshu@gmail.com</a><br><a href="#" style="text-decoration: none; color: antiquewhite; line-height: 50px; font-size: 20px; position: relative; top: 50px;">8851409693(Owner of Gym)</a> <a href="#" style="color: antiquewhite; font-size: 25px;  position: relative; top: 50px; text-decoration: none;">www.dkfashionhub</www></a></div>
+            <div class="zaid"><h1 id="gallery" style="color: antiquewhite; font-size: 20px; position: relative; top: 25px;">Gallery</h1><img src="gymimage/gympo1.jpg" style="width: 100px; height: 100px; position: relative; top: 20px;"><h2 id="text1" style="color: antiquewhite; position: relative; top: -70px; left: 110px; font-size: 25px;">Gym images is here</h2><br><img src="gymimage/gympo2.jpg" style="width: 100px; height: 100px; position: relative; top: -50px;"><h2 id="tesb"style="color: antiquewhite; position: relative; top: -140px; left: 110px; font-size: 25px;">Click and check out</h2></div>
+           </div>
+
+
+ </body>
+</html>
